@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tek Sophanith | Software Engineer &amp; Full Stack Developer</title>
+<meta name="description" content="Portfolio of Tek Sophanith — a software engineering student and full stack developer building modern, scalable, user-friendly web applications.">
+<meta name="keywords" content="Tek Sophanith, Software Engineer, Full Stack Developer, Web Developer, Portfolio, React Developer, Cambodia">
+<meta name="author" content="Tek Sophanith">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#0F172A">
+<link rel="canonical" href="https://teksophanith.dev/">
+
+<!-- Open Graph / Social Preview -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Tek Sophanith | Software Engineer & Full Stack Developer">
+<meta property="og:description" content="I build modern, scalable, and user-friendly web applications that solve real-world problems.">
+<meta property="og:image" content="assets/images/og-cover.jpg">
+<meta property="og:url" content="https://teksophanith.dev/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Tek Sophanith | Software Engineer & Full Stack Developer">
+<meta name="twitter:description" content="I build modern, scalable, and user-friendly web applications that solve real-world problems.">
+<meta name="twitter:image" content="assets/images/og-cover.jpg">
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+<link rel="alternate icon" href="assets/icons/favicon.svg">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Tek Sophanith",
+  "jobTitle": ["Software Engineer", "Full Stack Developer"],
+  "url": "https://teksophanith.dev/",
+  "sameAs": [
+    "https://github.com/Obzich",
+    "https://gitlab.com/phanithlaziodegozmo",
+    "https://www.linkedin.com/in/sophanith-tek-31267841b/",
+    "https://t.me/Obzich",
+    "https://www.facebook.com/mrr.phanith.921"
+  ],
+  "description": "Software engineering student and full stack developer building modern, scalable, user-friendly web applications."
+}
+</script>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to main content</a>
+
+<!-- ================= BACKGROUND LAYERS ================= -->
+<canvas id="particle-canvas"></canvas>
+<div class="bg-gradient"></div>
+<div class="bg-grid"></div>
+
+<!-- ================= NAVIGATION ================= -->
+<header class="navbar" id="navbar">
+  <nav class="nav-container" aria-label="Primary">
+    <a href="#home" class="logo" aria-label="Tek Sophanith — Home">
+      <span class="logo-bracket" aria-hidden="true">&lt;</span>Sophanith<span class="logo-bracket" aria-hidden="true">/&gt;</span>
+    </a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link active-link" aria-current="page">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#experience" class="nav-link">Experience</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+
+    <a href="assets/resume/Tek Sophanith - CV.pdf" download="Tek-Sophanith-CV.pdf" class="btn btn-nav-cv">
+      <svg viewBox="0 0 24 24" class="icon-pdf" aria-hidden="true" focusable="false" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 17v2a2 2 0 002 2h12a2 2 0 002-2v-2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>Resume</span>
+    </a>
+
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<!-- Mobile menu overlay -->
+<div class="mobile-menu" id="mobileMenu" role="dialog" aria-modal="true" aria-label="Mobile navigation">
+  <ul class="mobile-nav-links">
+    <li><a href="#home" class="mobile-link">Home</a></li>
+    <li><a href="#about" class="mobile-link">About</a></li>
+    <li><a href="#skills" class="mobile-link">Skills</a></li>
+    <li><a href="#projects" class="mobile-link">Projects</a></li>
+    <li><a href="#experience" class="mobile-link">Experience</a></li>
+    <li><a href="#contact" class="mobile-link">Contact</a></li>
+  </ul>
+  <a href="assets/resume/Tek Sophanith - CV.pdf" download="Tek-Sophanith-CV.pdf" class="btn btn-primary mobile-cv-btn">
+    <svg viewBox="0 0 24 24" class="icon-pdf" aria-hidden="true" focusable="false" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 17v2a2 2 0 002 2h12a2 2 0 002-2v-2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    Download CV
+  </a>
+</div>
+
+<main id="main">
+
+<!-- ================= HERO SECTION ================= -->
+<section class="hero" id="home" aria-label="Introduction">
+  <div class="hero-container">
+
+    <div class="hero-text fade-in-up" style="--delay: 0s">
+      <p class="hero-eyebrow"><span class="eyebrow-dot"></span>SYSTEM.STATUS: OPEN_TO_WORK</p>
+
+      <h1 class="hero-name">Tek Sophanith</h1>
+
+      <div class="hero-role">
+        <span class="role-prompt">&gt;</span>
+        <span id="typedRole" class="role-text"></span><span class="cursor">_</span>
+      </div>
+
+      <p class="hero-desc">
+        I build modern, scalable, and user-friendly web applications that solve real-world problems.
+        I enjoy creating clean, responsive, and efficient software while continuously learning new technologies.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="assets/resume/Tek Sophanith - CV.pdf" download="Tek-Sophanith-CV.pdf" class="btn btn-primary">
+          <svg viewBox="0 0 24 24" class="icon-pdf" aria-hidden="true" focusable="false" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 17v2a2 2 0 002 2h12a2 2 0 002-2v-2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span>Download CV</span>
+        </a>
+        <a href="#projects" class="btn btn-outline">
+          <span>View Projects</span>
+          <svg viewBox="0 0 24 24" class="icon-arrow" aria-hidden="true" focusable="false" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12h14m0 0l-6-6m6 6l-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#contact" class="btn btn-ghost">
+          <span>Contact Me</span>
+        </a>
+      </div>
+
+      <div class="hero-socials">
+        <a href="https://github.com/Obzich" target="_blank" rel="noopener" class="social-icon" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1.16-.02-2.11-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.72.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.23-1.28-5.23-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 015.8 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.8 1.19 1.83 1.19 3.09 0 4.42-2.69 5.4-5.25 5.68.41.36.78 1.07.78 2.15 0 1.55-.01 2.8-.01 3.18 0 .3.2.66.79.55A10.51 10.51 0 0023.5 12c0-6.27-5.23-11.5-11.5-11.5z"/></svg>
+        </a>
+        <a href="https://gitlab.com/phanithlaziodegozmo" target="_blank" rel="noopener" class="social-icon" aria-label="GitLab">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M23.955 13.587l-1.342-4.135-2.664-8.189a.455.455 0 0 0-.867 0L16.418 9.45H7.582L4.918 1.263a.455.455 0 0 0-.867 0L1.387 9.452.045 13.587a.924.924 0 0 0 .331 1.023L12 23.054l11.624-8.444a.924.924 0 0 0 .331-1.023z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/sophanith-tek-8b227b417/" target="_blank" rel="noopener" class="social-icon" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.06 2.06 0 110-4.12 2.06 2.06 0 010 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+        </a>
+        <a href="https://t.me/Obzich" target="_blank" rel="noopener" class="social-icon" aria-label="Telegram">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm5.57 8.16l-1.98 9.35c-.15.67-.54.83-1.09.52l-3-2.21-1.45 1.4c-.16.16-.3.3-.6.3l.22-3.08 5.6-5.06c.24-.22-.05-.34-.38-.12l-6.92 4.36-2.98-.93c-.65-.2-.66-.65.14-.96l11.65-4.49c.54-.2 1.01.13.79 1z"/></svg>
+        </a>
+        <a href="https://www.facebook.com/mrr.phanith.921" target="_blank" rel="noopener" class="social-icon" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M22 12.06C22 6.51 17.52 2 12 2S2 6.51 2 12.06C2 17.06 5.66 21.2 10.44 21.95v-6.98H7.9v-2.9h2.54V9.85c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.44 2.9h-2.34v6.98C18.34 21.2 22 17.06 22 12.06z"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-visual fade-in-up" style="--delay: 0.2s">
+      <div class="orbit-ring ring-1"></div>
+      <div class="orbit-ring ring-2"></div>
+
+      <div class="profile-frame">
+        <div class="profile-glow"></div>
+        <div class="profile-photo">
+          <img src="./assets/images/profile-photo.jpg" alt="Tek Sophanith" width="300px" height="300px" loading="eager">
+        </div>
+      </div>
+
+      <div class="floating-badge badge-top">
+        <span class="badge-dot"></span> Available for Work
+      </div>
+      <div class="floating-badge badge-bottom">
+        <span class="badge-code">&lt;/&gt;</span> Full Stack Dev
+      </div>
+    </div>
+
+  </div>
+
+  <a href="#about" class="scroll-indicator" aria-label="Scroll to About section">
+    <span class="scroll-mouse"><span class="scroll-wheel"></span></span>
+  </a>
+</section>
+
+<!-- ================= ABOUT SECTION ================= -->
+<section class="about section-block" id="about" aria-label="About Me">
+  <div class="container">
+
+    <header class="section-header reveal">
+      <p class="section-eyebrow"><span class="eyebrow-dot"></span>// WHO I AM</p>
+      <h2 class="section-title">About Me</h2>
+      <p class="section-subtitle">
+        Aspiring Software Engineer focused on building modern web applications and growing every day.
+      </p>
+    </header>
+
+    <div class="about-grid">
+
+      <div class="about-photo-wrap reveal" style="--delay: 0.1s">
+        <div class="about-photo-card glass-card">
+          <div class="about-photo-glow" aria-hidden="true"></div>
+          <div class="about-photo">
+            <img src="./assets/images/About_Pic.PNG"  alt="Standard Business Profile">
+            <span class="about-photo-label">Professional Photo</span>
+          </div>
+          <div class="about-photo-badge">
+            <span class="badge-dot"></span>
+            Software Engineer
+          </div>
+        </div>
+      </div>
+
+      <div class="about-content reveal" style="--delay: 0.2s">
+        <p class="about-intro">
+          I'm a <strong>Software Engineer</strong> who enjoys building modern web applications
+          and continuously learning new technologies. I care about writing software that is useful,
+          reliable, and enjoyable to work with — from polished user interfaces to solid backend logic.
+        </p>
+
+        <ul class="about-highlights" aria-label="Core strengths">
+          <li class="highlight-card glass-card">
+            <span class="highlight-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M8 9l3 3-3 3m5 0h3M4 4h16v16H4z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <span class="highlight-text">Passion for programming</span>
+          </li>
+          <li class="highlight-card glass-card">
+            <span class="highlight-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M9.5 9.5l-2 2a5 5 0 107.07 0l1.43-1.43M14.5 14.5l2 2" stroke-linecap="round"/><circle cx="9" cy="9" r="2"/></svg>
+            </span>
+            <span class="highlight-text">Problem-solving mindset</span>
+          </li>
+          <li class="highlight-card glass-card">
+            <span class="highlight-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M4 6h16M4 12h10M4 18h6" stroke-linecap="round"/><path d="M16 12l2 2 4-4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <span class="highlight-text">Clean &amp; maintainable code</span>
+          </li>
+          <li class="highlight-card glass-card">
+            <span class="highlight-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4" stroke-linecap="round"/></svg>
+            </span>
+            <span class="highlight-text">Frontend &amp; Backend development</span>
+          </li>
+          <li class="highlight-card glass-card">
+            <span class="highlight-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M12 6v6l4 2"/><circle cx="12" cy="12" r="9"/></svg>
+            </span>
+            <span class="highlight-text">Continuous learning</span>
+          </li>
+          <li class="highlight-card glass-card">
+            <span class="highlight-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M16 11c1.66 0 3-1.34 3-3S17.66 5 16 5s-3 1.34-3 3 1.34 3 3 3zM8 11c1.66 0 3-1.34 3-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3zM8 13c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4zM16 13c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45v2h6v-2c0-2.66-5.33-4-8-4z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <span class="highlight-text">Team collaboration</span>
+          </li>
+          <li class="highlight-card glass-card">
+            <span class="highlight-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M9 18h6M10 22h4M12 2a7 7 0 017 7c0 2.5-1.3 4.7-3.3 6L15 18H9l-.7-3C6.3 13.7 5 11.5 5 9a7 7 0 017-7z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <span class="highlight-text">Creativity</span>
+          </li>
+          <li class="highlight-card glass-card">
+            <span class="highlight-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M4 4v5h5M20 20v-5h-5M20 8a8 8 0 00-14.9-3M4 16a8 8 0 0014.9 3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <span class="highlight-text">Adaptability</span>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="about-stats reveal" style="--delay: 0.15s">
+      <article class="stat-card glass-card">
+        <div class="stat-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M3 7h18M3 12h18M3 17h18" stroke-linecap="round"/><rect x="5" y="5" width="6" height="6" rx="1"/></svg>
+        </div>
+        <p class="stat-number" data-target="3" data-suffix="+">0</p>
+        <p class="stat-label">Projects Completed</p>
+      </article>
+      <article class="stat-card glass-card">
+        <div class="stat-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M12 2l2.4 7.4H22l-6 4.6 2.3 7L12 17.8 5.7 21l2.3-7-6-4.6h7.6L12 2z" stroke-linejoin="round"/></svg>
+        </div>
+        <p class="stat-number" data-target="8" data-suffix="+">0</p>
+        <p class="stat-label">Technologies Learned</p>
+      </article>
+      <article class="stat-card glass-card">
+        <div class="stat-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2" stroke-linecap="round"/></svg>
+        </div>
+        <p class="stat-number" data-target="100" data-suffix="+">0</p>
+        <p class="stat-label">Hours of Coding</p>
+      </article>
+      <article class="stat-card glass-card stat-card-coffee">
+        <div class="stat-icon" aria-hidden="true">
+          <span class="stat-emoji">☕</span>
+        </div>
+        <p class="stat-number" data-target="120" data-suffix="+">0</p>
+        <p class="stat-label">Coffee Consumed</p>
+      </article>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= SKILLS SECTION ================= -->
+<section class="skills section-block" id="skills" aria-label="Skills">
+  <div class="container">
+
+    <header class="section-header reveal">
+      <p class="section-eyebrow"><span class="eyebrow-dot"></span>// TECH STACK</p>
+      <h2 class="section-title">Skills</h2>
+      <p class="section-subtitle">
+        Technologies and tools I use to design, build, and ship modern web applications.
+      </p>
+    </header>
+
+    <div class="skills-categories">
+
+      <!-- Programming Languages -->
+      <div class="skill-category reveal">
+        <h3 class="category-title">
+          <span class="category-icon" aria-hidden="true">&lt;/&gt;</span>
+          Programming Languages
+        </h3>
+        <div class="skills-grid">
+
+          <article class="skill-card glass-card" data-progress="82">
+            <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="" width="36" height="36" loading="lazy"></div>
+            <div class="skill-body">
+              <div class="skill-head"><h4 class="skill-name">HTML</h4><span class="skill-percent">82%</span></div>
+              <div class="skill-progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="92" aria-label="HTML proficiency"><span class="skill-progress-fill"></span></div>
+            </div>
+          </article>
+
+          <article class="skill-card glass-card" data-progress="68">
+            <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="" width="36" height="36" loading="lazy"></div>
+            <div class="skill-body">
+              <div class="skill-head"><h4 class="skill-name">CSS</h4><span class="skill-percent">68%</span></div>
+              <div class="skill-progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="88" aria-label="CSS proficiency"><span class="skill-progress-fill"></span></div>
+            </div>
+          </article>
+
+          <article class="skill-card glass-card" data-progress="55">
+            <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="" width="36" height="36" loading="lazy"></div>
+            <div class="skill-body">
+              <div class="skill-head"><h4 class="skill-name">JavaScript</h4><span class="skill-percent">55%</span></div>
+              <div class="skill-progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="82" aria-label="JavaScript proficiency"><span class="skill-progress-fill"></span></div>
+            </div>
+          </article>
+
+          <article class="skill-card glass-card" data-progress="32">
+            <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="" width="36" height="36" loading="lazy"></div>
+            <div class="skill-body">
+              <div class="skill-head"><h4 class="skill-name">Python <span class="skill-tag">Beginner</span></h4><span class="skill-percent">32%</span></div>
+              <div class="skill-progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="38" aria-label="Python proficiency"><span class="skill-progress-fill"></span></div>
+            </div>
+          </article>
+
+          <article class="skill-card glass-card" data-progress="60">
+            <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="" width="36" height="36" loading="lazy"></div>
+            <div class="skill-body">
+              <div class="skill-head"><h4 class="skill-name">Java</h4><span class="skill-percent">60%</span></div>
+              <div class="skill-progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="72" aria-label="Java proficiency"><span class="skill-progress-fill"></span></div>
+            </div>
+          </article>
+
+          <article class="skill-card glass-card" data-progress="60">
+            <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg" alt="" width="36" height="36" loading="lazy"></div>
+            <div class="skill-body">
+              <div class="skill-head"><h4 class="skill-name">Dart</h4><span class="skill-percent">60%</span></div>
+              <div class="skill-progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="58" aria-label="Dart proficiency"><span class="skill-progress-fill"></span></div>
+            </div>
+          </article>
+
+          <article class="skill-card glass-card" data-progress="65">
+            <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="" width="36" height="36" loading="lazy"></div>
+            <div class="skill-body">
+              <div class="skill-head"><h4 class="skill-name">C++</h4><span class="skill-percent">65%</span></div>
+              <div class="skill-progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="55" aria-label="C++ proficiency"><span class="skill-progress-fill"></span></div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+      <!-- Frontend -->
+      <div class="skill-category reveal" style="--delay: 0.1s">
+        <h3 class="category-title">
+          <span class="category-icon" aria-hidden="true">UI</span>
+          Frontend
+        </h3>
+        <div class="skills-grid">
+
+          <article class="skill-card glass-card" data-progress="45">
+            <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="" width="36" height="36" loading="lazy"></div>
+            <div class="skill-body">
+              <div class="skill-head"><h4 class="skill-name">React</h4><span class="skill-percent">45%</span></div>
+              <div class="skill-progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="76" aria-label="React proficiency"><span class="skill-progress-fill"></span></div>
+            </div>
+          </article>
+
+          <article class="skill-card glass-card" data-progress="15">
+            <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" alt="" width="36" height="36" loading="lazy"></div>
+            <div class="skill-body">
+              <div class="skill-head"><h4 class="skill-name">Next.js <span class="skill-tag">Learning</span></h4><span class="skill-percent">15%</span></div>
+              <div class="skill-progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="42" aria-label="Next.js proficiency"><span class="skill-progress-fill"></span></div>
+            </div>
+          </article>
+
+          <article class="skill-card glass-card" data-progress="38">
+            <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg" alt="" width="36" height="36" loading="lazy"></div>
+            <div class="skill-body">
+              <div class="skill-head"><h4 class="skill-name">Flutter <span class="skill-tag">Learning</span></h4><span class="skill-percent">38%</span></div>
+              <div class="skill-progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="38" aria-label="Flutter proficiency"><span class="skill-progress-fill"></span></div>
+            </div>
+          </article>
+
+          <article class="skill-card glass-card" data-progress="48">
+            <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="" width="36" height="36" loading="lazy"></div>
+            <div class="skill-body">
+              <div class="skill-head"><h4 class="skill-name">Tailwind CSS <span class="skill-tag">Learning</span></h4><span class="skill-percent">48%</span></div>
+              <div class="skill-progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="48" aria-label="Tailwind CSS proficiency"><span class="skill-progress-fill"></span></div>
+            </div>
+          </article>
+
+          <article class="skill-card glass-card" data-progress="68">
+            <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" alt="" width="36" height="36" loading="lazy"></div>
+            <div class="skill-body">
+              <div class="skill-head"><h4 class="skill-name">Bootstrap</h4><span class="skill-percent">68%</span></div>
+              <div class="skill-progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="68" aria-label="Bootstrap proficiency"><span class="skill-progress-fill"></span></div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+      <!-- Backend -->
+      <div class="skill-category reveal" style="--delay: 0.1s">
+        <h3 class="category-title">
+          <span class="category-icon" aria-hidden="true">API</span>
+          Backend
+        </h3>
+        <div class="skills-grid">
+
+          <article class="skill-card glass-card" data-progress="25">
+            <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="" width="36" height="36" loading="lazy"></div>
+            <div class="skill-body">
+              <div class="skill-head"><h4 class="skill-name">Node.js <span class="skill-tag">Learning</span></h4><span class="skill-percent">25%</span></div>
+              <div class="skill-progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="45" aria-label="Node.js proficiency"><span class="skill-progress-fill"></span></div>
+            </div>
+          </article>
+
+          <article class="skill-card glass-card" data-progress="18">
+            <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" alt="" width="36" height="36" loading="lazy"></div>
+            <div class="skill-body">
+              <div class="skill-head"><h4 class="skill-name">Express.js <span class="skill-tag">Learning</span></h4><span class="skill-percent">18%</span></div>
+              <div class="skill-progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="40" aria-label="Express.js proficiency"><span class="skill-progress-fill"></span></div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+      <!-- Database -->
+      <div class="skill-category reveal" style="--delay: 0.1s">
+        <h3 class="category-title">
+          <span class="category-icon" aria-hidden="true">DB</span>
+          Database
+        </h3>
+        <div class="skills-grid">
+
+          <article class="skill-card glass-card" data-progress="44">
+            <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="" width="36" height="36" loading="lazy"></div>
+            <div class="skill-body">
+              <div class="skill-head"><h4 class="skill-name">MySQL <span class="skill-tag">Learning</span></h4><span class="skill-percent">44%</span></div>
+              <div class="skill-progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="44" aria-label="MySQL proficiency"><span class="skill-progress-fill"></span></div>
+            </div>
+          </article>
+
+          <article class="skill-card glass-card" data-progress="30">
+            <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" alt="" width="36" height="36" loading="lazy"></div>
+            <div class="skill-body">
+              <div class="skill-head"><h4 class="skill-name">MongoDB <span class="skill-tag">Learning</span></h4><span class="skill-percent">30%</span></div>
+              <div class="skill-progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="40" aria-label="MongoDB proficiency"><span class="skill-progress-fill"></span></div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+      <!-- Tools -->
+      <div class="skill-category reveal" style="--delay: 0.1s">
+        <h3 class="category-title">
+          <span class="category-icon" aria-hidden="true">⚙</span>
+          Tools
+        </h3>
+        <div class="skills-grid">
+
+          <article class="skill-card glass-card" data-progress="65">
+            <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="" width="36" height="36" loading="lazy"></div>
+            <div class="skill-body">
+              <div class="skill-head"><h4 class="skill-name">Git</h4><span class="skill-percent">65%</span></div>
+              <div class="skill-progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="84" aria-label="Git proficiency"><span class="skill-progress-fill"></span></div>
+            </div>
+          </article>
+
+          <article class="skill-card glass-card" data-progress="70">
+            <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="" width="36" height="36" loading="lazy"></div>
+            <div class="skill-body">
+              <div class="skill-head"><h4 class="skill-name">GitHub</h4><span class="skill-percent">70%</span></div>
+              <div class="skill-progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="86" aria-label="GitHub proficiency"><span class="skill-progress-fill"></span></div>
+            </div>
+          </article>
+
+          <article class="skill-card glass-card" data-progress="75">
+            <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original.svg" alt="" width="36" height="36" loading="lazy"></div>
+            <div class="skill-body">
+              <div class="skill-head"><h4 class="skill-name">GitLab</h4><span class="skill-percent">75%</span></div>
+              <div class="skill-progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="70" aria-label="GitLab proficiency"><span class="skill-progress-fill"></span></div>
+            </div>
+          </article>
+
+          <article class="skill-card glass-card" data-progress="80">
+            <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="" width="36" height="36" loading="lazy"></div>
+            <div class="skill-body">
+              <div class="skill-head"><h4 class="skill-name">VS Code</h4><span class="skill-percent">80%</span></div>
+              <div class="skill-progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="92" aria-label="VS Code proficiency"><span class="skill-progress-fill"></span></div>
+            </div>
+          </article>
+
+          <article class="skill-card glass-card" data-progress="68">
+            <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" alt="" width="36" height="36" loading="lazy"></div>
+            <div class="skill-body">
+              <div class="skill-head"><h4 class="skill-name">Figma</h4><span class="skill-percent">68%</span></div>
+              <div class="skill-progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="68" aria-label="Figma proficiency"><span class="skill-progress-fill"></span></div>
+            </div>
+          </article>
+
+          <article class="skill-card glass-card" data-progress="30">
+            <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" alt="" width="36" height="36" loading="lazy"></div>
+            <div class="skill-body">
+              <div class="skill-head"><h4 class="skill-name">Postman</h4><span class="skill-percent">30%</span></div>
+              <div class="skill-progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="65" aria-label="Postman proficiency"><span class="skill-progress-fill"></span></div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROJECTS SECTION ================= -->
+<section class="projects section-block" id="projects" aria-label="Projects">
+  <div class="container">
+
+    <header class="section-header reveal">
+      <p class="section-eyebrow"><span class="eyebrow-dot"></span>// MY WORK</p>
+      <h2 class="section-title">Projects</h2>
+      <p class="section-subtitle">
+        Selected builds that showcase my approach to clean UI, practical features, and real-world problem solving.
+      </p>
+    </header>
+
+    <div class="project-filters reveal" role="toolbar" aria-label="Filter projects by technology">
+      <button type="button" class="filter-btn active" data-filter="all" aria-pressed="true">All</button>
+      <button type="button" class="filter-btn" data-filter="html" aria-pressed="false">HTML</button>
+      <button type="button" class="filter-btn" data-filter="css" aria-pressed="false">CSS</button>
+      <button type="button" class="filter-btn" data-filter="javascript" aria-pressed="false">JavaScript</button>
+      <button type="button" class="filter-btn" data-filter="bootstrap" aria-pressed="false">Bootstrap</button>
+      <button type="button" class="filter-btn" data-filter="figma" aria-pressed="false">Figma</button>
+    </div>
+
+    <div class="projects-grid reveal" id="projectsGrid">
+
+      <article class="project-card glass-card" data-tech="html css javascript bootstrap">
+        <div class="project-image-wrap">
+          <img
+            src="assets/images/projects/techstore.svg"
+            alt="TechStore ecommerce website preview showing product cards and shopping interface"
+            class="project-image"
+            width="800"
+            height="500"
+            loading="lazy"
+          >
+          <div class="project-image-overlay" aria-hidden="true"></div>
+        </div>
+        <div class="project-content">
+          <div class="project-meta">
+            <span class="project-category">Ecommerce</span>
+          </div>
+          <h3 class="project-title">TechStore</h3>
+          <p class="project-desc">
+            A responsive ecommerce storefront for browsing tech products, managing a shopping cart,
+            and delivering a smooth checkout-ready user experience across devices.
+          </p>
+          <ul class="project-tech" aria-label="Technologies used">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Bootstrap</li>
+          </ul>
+          <div class="project-actions">
+            <a href="https://github.com/Obzich" target="_blank" rel="noopener" class="btn btn-outline btn-project" aria-label="TechStore GitHub repository (placeholder)">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1.16-.02-2.11-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.72.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.23-1.28-5.23-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 015.8 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.8 1.19 1.83 1.19 3.09 0 4.42-2.69 5.4-5.25 5.68.41.36.78 1.07.78 2.15 0 1.55-.01 2.8-.01 3.18 0 .3.2.66.79.55A10.51 10.51 0 0023.5 12c0-6.27-5.23-11.5-11.5-11.5z"/></svg>
+              <span>GitHub</span>
+            </a>
+            <a href="#" class="btn btn-primary btn-project" aria-label="TechStore live demo (placeholder)">
+              <span>Live Demo</span>
+              <svg viewBox="0 0 24 24" class="icon-arrow" aria-hidden="true" focusable="false" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12h14m0 0l-6-6m6 6l-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card glass-card" data-tech="html css javascript figma">
+        <div class="project-image-wrap">
+          <img
+            src="assets/images/projects/poster-motivation.svg"
+            alt="Poster Motivation project preview with inspirational typography and gradient poster design"
+            class="project-image"
+            width="800"
+            height="500"
+            loading="lazy"
+          >
+          <div class="project-image-overlay" aria-hidden="true"></div>
+        </div>
+        <div class="project-content">
+          <div class="project-meta">
+            <span class="project-category">Creative Web</span>
+          </div>
+          <h3 class="project-title">Poster Motivation</h3>
+          <p class="project-desc">
+            An eye-catching motivational poster page with bold typography, vibrant gradients,
+            and a design-first layout crafted to inspire focus and daily productivity.
+          </p>
+          <ul class="project-tech" aria-label="Technologies used">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Figma</li>
+          </ul>
+          <div class="project-actions">
+            <a href="https://github.com/Obzich" target="_blank" rel="noopener" class="btn btn-outline btn-project" aria-label="Poster Motivation GitHub repository (placeholder)">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1.16-.02-2.11-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.72.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.23-1.28-5.23-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 015.8 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.8 1.19 1.83 1.19 3.09 0 4.42-2.69 5.4-5.25 5.68.41.36.78 1.07.78 2.15 0 1.55-.01 2.8-.01 3.18 0 .3.2.66.79.55A10.51 10.51 0 0023.5 12c0-6.27-5.23-11.5-11.5-11.5z"/></svg>
+              <span>GitHub</span>
+            </a>
+            <a href="#" class="btn btn-primary btn-project" aria-label="Poster Motivation live demo (placeholder)">
+              <span>Live Demo</span>
+              <svg viewBox="0 0 24 24" class="icon-arrow" aria-hidden="true" focusable="false" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12h14m0 0l-6-6m6 6l-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+    <p class="projects-empty reveal" id="projectsEmpty" hidden>No projects found for this technology.</p>
+
+  </div>
+</section>
+
+<!-- ================= EXPERIENCE & EDUCATION SECTION ================= -->
+<section class="experience section-block" id="experience" aria-label="Experience and Education">
+  <div class="container">
+
+    <header class="section-header reveal">
+      <p class="section-eyebrow"><span class="eyebrow-dot"></span>// MY JOURNEY</p>
+      <h2 class="section-title">Experience &amp; Education</h2>
+      <p class="section-subtitle">
+        A snapshot of how I grow as a developer — from academic work and personal builds to real client projects.
+      </p>
+    </header>
+
+    <div class="exp-edu-grid">
+
+      <!-- Experience Timeline -->
+      <div class="experience-col">
+        <h3 class="exp-edu-heading reveal">
+          <span class="exp-edu-heading-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2" stroke-linecap="round"/><path d="M12 12v3" stroke-linecap="round"/></svg>
+          </span>
+          Experience
+        </h3>
+
+        <div class="timeline" id="experienceTimeline">
+
+          <article class="timeline-item reveal" style="--delay: 0.05s">
+            <div class="timeline-marker" aria-hidden="true">
+              <span class="timeline-dot"></span>
+            </div>
+            <div class="timeline-card glass-card">
+              <div class="timeline-card-head">
+                <div>
+                  <h4 class="timeline-title">Freelance Developer</h4>
+                  <p class="timeline-org">Independent / Remote</p>
+                </div>
+                <time class="timeline-date" datetime="2026">2026 — Present</time>
+              </div>
+              <p class="timeline-desc">
+                Building responsive websites and web applications for clients — from landing pages
+                to feature-rich interfaces with clean UI, solid structure, and maintainable code.
+              </p>
+              <ul class="timeline-tags" aria-label="Focus areas">
+                <li>Web Development</li>
+                <li>UI Implementation</li>
+                <li>Client Projects</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal" style="--delay: 0.15s">
+            <div class="timeline-marker" aria-hidden="true">
+              <span class="timeline-dot"></span>
+            </div>
+            <div class="timeline-card glass-card">
+              <div class="timeline-card-head">
+                <div>
+                  <h4 class="timeline-title">University Projects</h4>
+                  <p class="timeline-org">Academic Coursework</p>
+                </div>
+                <time class="timeline-date" datetime="2026">2026 — Present</time>
+              </div>
+              <p class="timeline-desc">
+                Team and solo assignments covering software design, databases, algorithms, and full-stack
+                concepts — turning requirements into working prototypes and polished submissions.
+              </p>
+              <ul class="timeline-tags" aria-label="Focus areas">
+                <li>Software Design</li>
+                <li>Team Collaboration</li>
+                <li>Problem Solving</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal" style="--delay: 0.25s">
+            <div class="timeline-marker" aria-hidden="true">
+              <span class="timeline-dot"></span>
+            </div>
+            <div class="timeline-card glass-card">
+              <div class="timeline-card-head">
+                <div>
+                  <h4 class="timeline-title">Personal Projects</h4>
+                  <p class="timeline-org">Self-Directed Learning</p>
+                </div>
+                <time class="timeline-date" datetime="2026">2026 — Present</time>
+              </div>
+              <p class="timeline-desc">
+                Side projects to explore new tools, sharpen frontend skills, and ship ideas from concept
+                to demo — including ecommerce builds, creative pages, and portfolio experiments.
+              </p>
+              <ul class="timeline-tags" aria-label="Focus areas">
+                <li>HTML / CSS / JS</li>
+                <li>React</li>
+                <li>Continuous Learning</li>
+              </ul>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+      <!-- Education -->
+      <div class="education-col">
+        <h3 class="exp-edu-heading reveal">
+          <span class="exp-edu-heading-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M22 10l-10-5L2 10l10 5 10-5z"/><path d="M6 12v5c0 1.5 2.7 3 6 3s6-1.5 6-3v-5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          Education
+        </h3>
+
+        <article class="education-card glass-card reveal" style="--delay: 0.1s">
+          <div class="education-badge" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 10l-10-5L2 10l10 5 10-5z"/><path d="M6 12v5c0 1.5 2.7 3 6 3s6-1.5 6-3v-5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+
+          <h4 class="education-degree">Bachelor of Software Engineering</h4>
+          <p class="education-school">Limkokwing University of Creative Technology</p>
+
+          <dl class="education-details">
+            <div class="education-detail">
+              <dt>Graduation Year</dt>
+              <dd>2027 <span class="detail-note">(Expected)</span></dd>
+            </div>
+            <div class="education-detail">
+              <dt>GPA</dt>
+              <dd>3.79<span class="detail-note">(Placeholder)</span></dd>
+            </div>
+          </dl>
+
+          <p class="education-desc">
+            Studying core software engineering principles — programming, data structures, web development,
+            databases, and software design — with a focus on building practical, real-world applications.
+          </p>
+
+          <ul class="education-highlights" aria-label="Academic focus">
+            <li>Software Engineering</li>
+            <li>Web Development</li>
+            <li>Database Systems</li>
+            <li>Algorithms</li>
+            <li>Mobile Development</li>
+          </ul>
+        </article>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= CONTACT SECTION ================= -->
+<section class="contact section-block" id="contact" aria-label="Contact">
+  <div class="container">
+
+    <header class="section-header reveal">
+      <p class="section-eyebrow"><span class="eyebrow-dot"></span>// GET IN TOUCH</p>
+      <h2 class="section-title">Contact Me</h2>
+      <p class="section-subtitle">
+        Have a project in mind, a question, or just want to say hello? Send a message — I&apos;d love to hear from you.
+      </p>
+    </header>
+
+    <div class="contact-grid">
+
+      <form class="contact-form glass-card reveal" id="contactForm" novalidate>
+        <div class="form-group">
+          <label for="contactName">Name</label>
+          <div class="input-wrap">
+            <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" stroke-linecap="round"/><circle cx="12" cy="7" r="4"/></svg>
+            <input type="text" id="contactName" name="name" placeholder="Your name" autocomplete="name" required minlength="2">
+          </div>
+          <p class="form-error" id="contactNameError" role="alert"></p>
+        </div>
+
+        <div class="form-group">
+          <label for="contactEmail">Email</label>
+          <div class="input-wrap">
+            <svg class="input-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-7.545-4.91v9.273H.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/></svg>
+            <input type="email" id="contactEmail" name="email" placeholder="your.email@gmail.com" autocomplete="email" required>
+          </div>
+          <p class="form-error" id="contactEmailError" role="alert"></p>
+        </div>
+
+        <div class="form-group">
+          <label for="contactSubject">Subject</label>
+          <div class="input-wrap">
+            <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M4 6h16M4 12h10M4 18h6" stroke-linecap="round"/></svg>
+            <input type="text" id="contactSubject" name="subject" placeholder="What's this about?" required minlength="3">
+          </div>
+          <p class="form-error" id="contactSubjectError" role="alert"></p>
+        </div>
+
+        <div class="form-group">
+          <label for="contactMessage">Message</label>
+          <div class="input-wrap input-wrap-textarea">
+            <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M21 15a4 4 0 01-4 4H7l-4 3V7a4 4 0 014-4h10a4 4 0 014 4z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <textarea id="contactMessage" name="message" rows="5" placeholder="Write your message here..." required minlength="10"></textarea>
+          </div>
+          <p class="form-error" id="contactMessageError" role="alert"></p>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-submit">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span>Send Message</span>
+        </button>
+      </form>
+
+      <aside class="contact-info reveal" style="--delay: 0.1s">
+        <div class="contact-info-card glass-card">
+          <h3 class="contact-info-title">Contact Information</h3>
+          <p class="contact-info-desc">
+            Prefer reaching out directly? Connect with me through any of the channels below.
+          </p>
+
+          <ul class="contact-links">
+            <li>
+              <a href="mailto:phanithlaziodegozmo@gmail.com" class="contact-link">
+                <span class="contact-link-icon contact-link-icon-gmail" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-7.545-4.91v9.273H.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/></svg>
+                </span>
+                <span class="contact-link-text">
+                  <span class="contact-link-label">Gmail</span>
+                  <span class="contact-link-value">phanithlaziodegozmo@gmail.com</span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Obzich" target="_blank" rel="noopener" class="contact-link">
+                <span class="contact-link-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1.16-.02-2.11-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.72.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.23-1.28-5.23-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 015.8 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.8 1.19 1.83 1.19 3.09 0 4.42-2.69 5.4-5.25 5.68.41.36.78 1.07.78 2.15 0 1.55-.01 2.8-.01 3.18 0 .3.2.66.79.55A10.51 10.51 0 0023.5 12c0-6.27-5.23-11.5-11.5-11.5z"/></svg>
+                </span>
+                <span class="contact-link-text">
+                  <span class="contact-link-label">GitHub</span>
+                  <span class="contact-link-value">github.com/Obzich</span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/sophanith-tek-8b227b417/" target="_blank" rel="noopener" class="contact-link">
+                <span class="contact-link-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.06 2.06 0 110-4.12 2.06 2.06 0 010 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+                </span>
+                <span class="contact-link-text">
+                  <span class="contact-link-label">LinkedIn</span>
+                  <span class="contact-link-value">Sophanith Tek</span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="https://t.me/Obzich" target="_blank" rel="noopener" class="contact-link">
+                <span class="contact-link-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm5.57 8.16l-1.98 9.35c-.15.67-.54.83-1.09.52l-3-2.21-1.45 1.4c-.16.16-.3.3-.6.3l.22-3.08 5.6-5.06c.24-.22-.05-.34-.38-.12l-6.92 4.36-2.98-.93c-.65-.2-.66-.65.14-.96l11.65-4.49c.54-.2 1.01.13.79 1z"/></svg>
+                </span>
+                <span class="contact-link-text">
+                  <span class="contact-link-label">Telegram</span>
+                  <span class="contact-link-value">@Obzich</span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/mrr.phanith.921" target="_blank" rel="noopener" class="contact-link">
+                <span class="contact-link-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12.06C22 6.51 17.52 2 12 2S2 6.51 2 12.06C2 17.06 5.66 21.2 10.44 21.95v-6.98H7.9v-2.9h2.54V9.85c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.44 2.9h-2.34v6.98C18.34 21.2 22 17.06 22 12.06z"/></svg>
+                </span>
+                <span class="contact-link-text">
+                  <span class="contact-link-label">Facebook</span>
+                  <span class="contact-link-value">mrr.phanith.921</span>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- Success notification toast -->
+<div class="toast" id="contactToast" role="status" aria-live="polite" aria-atomic="true" hidden>
+  <span class="toast-icon" aria-hidden="true">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </span>
+  <span class="toast-message">Message sent successfully! I&apos;ll get back to you soon.</span>
+  <button type="button" class="toast-close" id="toastClose" aria-label="Dismiss notification">&times;</button>
+</div>
+
+</main>
+
+<!-- Scroll to top -->
+<button type="button" class="scroll-top" id="scrollTopBtn" aria-label="Scroll to top" aria-hidden="true">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer" aria-label="Site footer">
+  <div class="footer-glow" aria-hidden="true"></div>
+
+  <div class="container">
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+        <a href="#home" class="footer-logo" aria-label="Tek Sophanith — Home">
+          <span class="logo-bracket" aria-hidden="true">&lt;</span>Tek Sophanith<span class="logo-bracket" aria-hidden="true">/&gt;</span>
+        </a>
+        <p class="footer-slogan">
+          Building modern, scalable web applications that solve real-world problems.
+        </p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <h3 class="footer-heading">Navigation</h3>
+        <ul class="footer-links">
+          <li><a href="#home" class="footer-link">Home</a></li>
+          <li><a href="#about" class="footer-link">About</a></li>
+          <li><a href="#skills" class="footer-link">Skills</a></li>
+          <li><a href="#projects" class="footer-link">Projects</a></li>
+          <li><a href="#experience" class="footer-link">Experience</a></li>
+          <li><a href="#contact" class="footer-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-connect">
+        <h3 class="footer-heading">Connect</h3>
+        <div class="footer-socials">
+          <a href="https://github.com/Obzich" target="_blank" rel="noopener" class="footer-social" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1.16-.02-2.11-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.72.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.23-1.28-5.23-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 015.8 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.8 1.19 1.83 1.19 3.09 0 4.42-2.69 5.4-5.25 5.68.41.36.78 1.07.78 2.15 0 1.55-.01 2.8-.01 3.18 0 .3.2.66.79.55A10.51 10.51 0 0023.5 12c0-6.27-5.23-11.5-11.5-11.5z"/></svg>
+          </a>
+          <a href="https://gitlab.com/phanithlaziodegozmo" target="_blank" rel="noopener" class="footer-social" aria-label="GitLab">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M23.955 13.587l-1.342-4.135-2.664-8.189a.455.455 0 0 0-.867 0L16.418 9.45H7.582L4.918 1.263a.455.455 0 0 0-.867 0L1.387 9.452.045 13.587a.924.924 0 0 0 .331 1.023L12 23.054l11.624-8.444a.924.924 0 0 0 .331-1.023z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/sophanith-tek-31267841b/" target="_blank" rel="noopener" class="footer-social" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.06 2.06 0 110-4.12 2.06 2.06 0 010 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+          </a>
+          <a href="https://t.me/Obzich" target="_blank" rel="noopener" class="footer-social" aria-label="Telegram">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm5.57 8.16l-1.98 9.35c-.15.67-.54.83-1.09.52l-3-2.21-1.45 1.4c-.16.16-.3.3-.6.3l.22-3.08 5.6-5.06c.24-.22-.05-.34-.38-.12l-6.92 4.36-2.98-.93c-.65-.2-.66-.65.14-.96l11.65-4.49c.54-.2 1.01.13.79 1z"/></svg>
+          </a>
+          <a href="https://www.facebook.com/mrr.phanith.921" target="_blank" rel="noopener" class="footer-social" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M22 12.06C22 6.51 17.52 2 12 2S2 6.51 2 12.06C2 17.06 5.66 21.2 10.44 21.95v-6.98H7.9v-2.9h2.54V9.85c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.44 2.9h-2.34v6.98C18.34 21.2 22 17.06 22 12.06z"/></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-copyright">&copy; 2026 Tek Sophanith. All rights reserved.</p>
+      <p class="footer-tagline">Designed &amp; built with passion.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js" defer></script>
+</body>
+</html>

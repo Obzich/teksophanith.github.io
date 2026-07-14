@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Poster Motivation project preview">
+  <defs>
+    <linearGradient id="posterBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#312E81"/>
+      <stop offset="45%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.25)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#posterBg)"/>
+  <rect x="120" y="60" width="560" height="380" rx="24" fill="rgba(15,23,42,0.35)" stroke="rgba(255,255,255,0.18)" stroke-width="2"/>
+  <rect x="120" y="60" width="560" height="380" rx="24" fill="url(#shine)"/>
+  <text x="400" y="190" text-anchor="middle" fill="#FFFFFF" font-family="Georgia, serif" font-size="54" font-weight="700">Stay</text>
+  <text x="400" y="260" text-anchor="middle" fill="#FDE68A" font-family="Georgia, serif" font-size="54" font-weight="700">Motivated</text>
+  <text x="400" y="320" text-anchor="middle" fill="rgba(255,255,255,0.85)" font-family="Inter, Arial, sans-serif" font-size="20" font-style="italic">"Build. Learn. Repeat."</text>
+  <line x1="280" y1="350" x2="520" y2="350" stroke="rgba(255,255,255,0.35)" stroke-width="2"/>
+  <text x="400" y="390" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-family="Inter, Arial, sans-serif" font-size="14" letter-spacing="4">POSTER MOTIVATION</text>
+</svg>

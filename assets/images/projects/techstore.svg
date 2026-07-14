@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="TechStore ecommerce project preview">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="50%" stop-color="#1E3A8A"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <rect x="48" y="40" width="704" height="56" rx="12" fill="rgba(255,255,255,0.08)"/>
+  <rect x="72" y="58" width="120" height="20" rx="10" fill="#60A5FA"/>
+  <rect x="520" y="54" width="180" height="28" rx="14" fill="rgba(255,255,255,0.1)"/>
+  <text x="400" y="170" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="800">TechStore</text>
+  <text x="400" y="210" text-anchor="middle" fill="#94A3B8" font-family="Inter, Arial, sans-serif" font-size="18">Modern Ecommerce Experience</text>
+  <rect x="110" y="250" width="170" height="190" rx="16" fill="url(#card)" stroke="rgba(255,255,255,0.12)"/>
+  <rect x="315" y="250" width="170" height="190" rx="16" fill="url(#card)" stroke="rgba(255,255,255,0.12)"/>
+  <rect x="520" y="250" width="170" height="190" rx="16" fill="url(#card)" stroke="rgba(255,255,255,0.12)"/>
+  <rect x="130" y="275" width="130" height="90" rx="10" fill="rgba(59,130,246,0.35)"/>
+  <rect x="335" y="275" width="130" height="90" rx="10" fill="rgba(96,165,250,0.35)"/>
+  <rect x="540" y="275" width="130" height="90" rx="10" fill="rgba(52,211,153,0.35)"/>
+  <rect x="130" y="385" width="70" height="12" rx="6" fill="rgba(255,255,255,0.35)"/>
+  <rect x="335" y="385" width="70" height="12" rx="6" fill="rgba(255,255,255,0.35)"/>
+  <rect x="540" y="385" width="70" height="12" rx="6" fill="rgba(255,255,255,0.35)"/>
+  <circle cx="680" cy="420" r="34" fill="#3B82F6"/>
+  <text x="680" y="428" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="28">=Ò</text>
+</svg>
