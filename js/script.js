@@ -287,8 +287,16 @@ if(filterBtns.length && projectCards.length){
       let visibleCount = 0;
 
       projectCards.forEach(card => {
-        const techs = card.dataset.tech.split(' ');
-        const show = filter === 'all' || techs.includes(filter);
+        const techs = (card.dataset.tech || '').toLowerCase().split(/\s+/);
+        let show = false;
+        if (filter === 'all') {
+          show = true;
+        } else if (filter.includes(',')) {
+          const filterList = filter.split(',').map(f => f.trim().toLowerCase());
+          show = filterList.some(f => techs.includes(f));
+        } else {
+          show = techs.includes(filter.toLowerCase());
+        }
         card.classList.toggle('is-hidden', !show);
         if(show) visibleCount++;
       });
@@ -463,3 +471,71 @@ if(scrollTopBtn){
     });
   });
 }
+
+/* ================================================
+   VIDEO DEMO MODAL (YOUTUBE EMBED)
+================================================= */
+const videoModal = document.getElementById('videoModal');
+const videoModalBackdrop = document.getElementById('videoModalBackdrop');
+const videoModalClose = document.getElementById('videoModalClose');
+const uniwikiDemoBtn = document.getElementById('uniwikiDemoBtn');
+const demoVideoIframe = document.getElementById('demoVideoIframe');
+const demoVideoPlayer = document.getElementById('demoVideoPlayer');
+
+if(videoModal && uniwikiDemoBtn){
+  function openVideoModal(){
+    // Load YouTube video when modal opens (starts autoplay cleanly)
+    if(demoVideoIframe){
+      const targetSrc = demoVideoIframe.getAttribute('data-src') || 'https://www.youtube-nocookie.com/embed/v-snm2Ziv3o?autoplay=1&rel=0';
+      if(demoVideoIframe.src !== targetSrc){
+        demoVideoIframe.src = targetSrc;
+      }
+    }
+    videoModal.hidden = false;
+    requestAnimationFrame(() => {
+      videoModal.classList.add('is-open');
+    });
+    document.body.style.overflow = 'hidden';
+    if(videoModalClose) videoModalClose.focus();
+    if(demoVideoPlayer){
+      demoVideoPlayer.currentTime = 0;
+      demoVideoPlayer.play().catch(() => {});
+    }
+  }
+
+  function closeVideoModal(){
+    videoModal.classList.remove('is-open');
+    // Stop YouTube video playback and audio immediately on close
+    if(demoVideoIframe){
+      demoVideoIframe.src = '';
+    }
+    if(demoVideoPlayer){
+      demoVideoPlayer.pause();
+    }
+    setTimeout(() => {
+      videoModal.hidden = true;
+      document.body.style.overflow = '';
+      uniwikiDemoBtn.focus();
+    }, 300);
+  }
+
+  uniwikiDemoBtn.addEventListener('click', e => {
+    e.preventDefault();
+    openVideoModal();
+  });
+
+  if(videoModalClose){
+    videoModalClose.addEventListener('click', closeVideoModal);
+  }
+
+  if(videoModalBackdrop){
+    videoModalBackdrop.addEventListener('click', closeVideoModal);
+  }
+
+  document.addEventListener('keydown', e => {
+    if(e.key === 'Escape' && !videoModal.hidden){
+      closeVideoModal();
+    }
+  });
+}
+
