@@ -110,7 +110,6 @@
   <div class="hero-container">
 
     <div class="hero-text fade-in-up" style="--delay: 0s">
-      <p class="hero-eyebrow"><span class="eyebrow-dot"></span>SYSTEM.STATUS: OPEN_TO_WORK</p>
 
       <h1 class="hero-name">Tek Sophanith</h1>
 
@@ -178,9 +177,7 @@
 
   </div>
 
-  <a href="#about" class="scroll-indicator" aria-label="Scroll to About section">
-    <span class="scroll-mouse"><span class="scroll-wheel"></span></span>
-  </a>
+
 </section>
 
 <!-- ================= ABOUT SECTION ================= -->
@@ -188,7 +185,6 @@
   <div class="container">
 
     <header class="section-header reveal">
-      <p class="section-eyebrow"><span class="eyebrow-dot"></span>// WHO I AM</p>
       <h2 class="section-title">About Me</h2>
       <p class="section-subtitle">
         Aspiring Software Engineer focused on building modern web applications and growing every day.
@@ -311,7 +307,6 @@
   <div class="container">
 
     <header class="section-header reveal">
-      <p class="section-eyebrow"><span class="eyebrow-dot"></span>// TECH STACK</p>
       <h2 class="section-title">Skills</h2>
       <p class="section-subtitle">
         Technologies and tools I use to design, build, and ship modern web applications.
@@ -560,7 +555,6 @@
   <div class="container">
 
     <header class="section-header reveal">
-      <p class="section-eyebrow"><span class="eyebrow-dot"></span>// MY WORK</p>
       <h2 class="section-title">Projects</h2>
       <p class="section-subtitle">
         Selected builds that showcase my approach to clean UI, practical features, and real-world problem solving.
@@ -569,10 +563,12 @@
 
     <div class="project-filters reveal" role="toolbar" aria-label="Filter projects by technology">
       <button type="button" class="filter-btn active" data-filter="all" aria-pressed="true">All</button>
+      <button type="button" class="filter-btn" data-filter="react,reactjs" aria-pressed="false">React JS</button>
       <button type="button" class="filter-btn" data-filter="html,css,javascript" aria-pressed="false">HTML / CSS / JS</button>
       <button type="button" class="filter-btn" data-filter="bootstrap" aria-pressed="false">Bootstrap</button>
       <button type="button" class="filter-btn" data-filter="flutter" aria-pressed="false">Flutter</button>
       <button type="button" class="filter-btn" data-filter="figma" aria-pressed="false">Figma</button>
+      <button type="button" class="filter-btn" data-filter="design" aria-pressed="false">Design</button>
     </div>
 
     <div class="projects-grid reveal" id="projectsGrid">
@@ -617,6 +613,46 @@
         </div>
       </article>
 
+      <article class="project-card glass-card" data-tech="react reactjs nextjs javascript">
+        <div class="project-image-wrap">
+          <img
+            src="assets/images/projects/arena-cambodia-auto.jpg"
+            alt="Arena Cambodia Auto web application preview showing automotive news and vehicle reviews"
+            class="project-image"
+            style="object-position: center;"
+            width="800"
+            height="500"
+            loading="lazy"
+          >
+          <div class="project-image-overlay" aria-hidden="true"></div>
+        </div>
+        <div class="project-content">
+          <div class="project-meta">
+            <span class="project-category">Collaborative Web App</span>
+          </div>
+          <h3 class="project-title">Arena Cambodia Auto</h3>
+          <p class="project-desc">
+            A dynamic automotive media web application built with React and Next.js, featuring vehicle news, video reviews, model specifications, comparisons, and responsive user experiences.
+          </p>
+          <ul class="project-tech" aria-label="Technologies used">
+            <li>React</li>
+            <li>Next.js</li>
+            <li>JavaScript</li>
+            <li>Collaborative</li>
+          </ul>
+          <div class="project-actions">
+            <a href="https://gitlab.com/dashboard/activity" target="_blank" rel="noopener" class="btn btn-outline btn-project" aria-label="GitLab activity (Private Repository)">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M23.955 13.587l-1.342-4.135-2.664-8.189a.455.455 0 0 0-.867 0L16.418 9.45H7.582L4.918 1.263a.455.455 0 0 0-.867 0L1.387 9.452.045 13.587a.924.924 0 0 0 .331 1.023L12 23.054l11.624-8.444a.924.924 0 0 0 .331-1.023z"/></svg>
+              <span>GitLab</span>
+            </a>
+            <a href="https://arenacambodiaauto.com/" target="_blank" rel="noopener" class="btn btn-primary btn-project" aria-label="Arena Cambodia Auto live website">
+              <span>Live Website</span>
+              <svg viewBox="0 0 24 24" class="icon-arrow" aria-hidden="true" focusable="false" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12h14m0 0l-6-6m6 6l-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </div>
+      </article>
+
       <article class="project-card glass-card" data-tech="html css bootstrap">
         <div class="project-image-wrap">
           <img
@@ -656,6 +692,201 @@
         </div>
       </article>
 
+      <article class="project-card glass-card" data-tech="design">
+        <div class="project-image-wrap">
+          <img
+            src="assets/designs/my-pet-shop-preview.jpg"
+            alt="PetEmporium Web Shop UI/UX e-commerce design preview"
+            class="project-image"
+            style="object-position: top center;"
+            width="800"
+            height="500"
+            loading="lazy"
+          >
+          <div class="project-image-overlay" aria-hidden="true"></div>
+        </div>
+        <div class="project-content">
+          <div class="project-meta">
+            <span class="project-category">UI/UX &amp; Web Design</span>
+          </div>
+          <h3 class="project-title">PetEmporium Web Shop</h3>
+          <p class="project-desc">
+            A modern e-commerce pet store UI/UX web design featuring promotional hero banners, structured product catalogs, clean card grids, and seamless shopping cart flows.
+          </p>
+          <ul class="project-tech" aria-label="Technologies used">
+            <li>Figma</li>
+            <li>UI/UX Design</li>
+            <li>E-Commerce</li>
+          </ul>
+          <div class="project-actions">
+            <a href="assets/designs/My%20Pet%20Web%20Shop.pdf" download="My Pet Web Shop.pdf" class="btn btn-outline btn-project" aria-label="Download PetEmporium Web Shop PDF">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              <span>Download PDF</span>
+            </a>
+            <a href="assets/designs/My%20Pet%20Web%20Shop.pdf" target="_blank" rel="noopener" class="btn btn-primary btn-project" aria-label="View PetEmporium Web Shop PDF in new tab">
+              <span>View Design</span>
+              <svg viewBox="0 0 24 24" class="icon-arrow" aria-hidden="true" focusable="false" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12h14m0 0l-6-6m6 6l-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card glass-card" data-tech="design">
+        <div class="project-image-wrap">
+          <img
+            src="assets/designs/final-project-preview.jpg"
+            alt="Men's Basketball brand identity and concept design preview"
+            class="project-image"
+            style="object-position: top center;"
+            width="800"
+            height="500"
+            loading="lazy"
+          >
+          <div class="project-image-overlay" aria-hidden="true"></div>
+        </div>
+        <div class="project-content">
+          <div class="project-meta">
+            <span class="project-category">UI/UX &amp; Brand Identity</span>
+          </div>
+          <h3 class="project-title">Men's Basketball Brand Design</h3>
+          <p class="project-desc">
+            A comprehensive 37-page design system and brand showcase exploring Men's Basketball sportswear, digital catalog layouts, visual identity, and typographic hierarchy.
+          </p>
+          <ul class="project-tech" aria-label="Technologies used">
+            <li>Figma</li>
+            <li>Brand Identity</li>
+            <li>UI/UX Design</li>
+          </ul>
+          <div class="project-actions">
+            <a href="assets/designs/Tek%20Sophanith%20-%20Final%20Project%20(Interactive%20File).pdf" download="Tek Sophanith - Final Project (Interactive File).pdf" class="btn btn-outline btn-project" aria-label="Download Tek Sophanith Final Project PDF">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              <span>Download PDF</span>
+            </a>
+            <a href="assets/designs/Tek%20Sophanith%20-%20Final%20Project%20(Interactive%20File).pdf" target="_blank" rel="noopener" class="btn btn-primary btn-project" aria-label="View Tek Sophanith Final Project Interactive PDF">
+              <span>View Case Study</span>
+              <svg viewBox="0 0 24 24" class="icon-arrow" aria-hidden="true" focusable="false" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12h14m0 0l-6-6m6 6l-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card glass-card" data-tech="design">
+        <div class="project-image-wrap">
+          <img
+            src="assets/designs/shoes-nike-preview.jpg"
+            alt="Nike Shoes promotional poster design preview"
+            class="project-image"
+            style="object-position: center;"
+            width="800"
+            height="500"
+            loading="lazy"
+          >
+          <div class="project-image-overlay" aria-hidden="true"></div>
+        </div>
+        <div class="project-content">
+          <div class="project-meta">
+            <span class="project-category">Advertising &amp; Graphic Design</span>
+          </div>
+          <h3 class="project-title">Nike Shoes Poster Concept</h3>
+          <p class="project-desc">
+            A high-energy commercial poster design crafted to promote Nike athletic footwear, incorporating dramatic angles, bold branding, and vibrant color balance.
+          </p>
+          <ul class="project-tech" aria-label="Technologies used">
+            <li>Graphic Design</li>
+            <li>Poster Design</li>
+            <li>Photoshop</li>
+          </ul>
+          <div class="project-actions">
+            <a href="assets/designs/Shoes%20Nike%20Design.jpg" download="Shoes Nike Design.jpg" class="btn btn-outline btn-project" aria-label="Download Nike Shoes Poster design">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              <span>Download</span>
+            </a>
+            <a href="assets/designs/Shoes%20Nike%20Design.jpg" target="_blank" rel="noopener" class="btn btn-primary btn-project" aria-label="View full resolution Nike Shoes Poster">
+              <span>View Poster</span>
+              <svg viewBox="0 0 24 24" class="icon-arrow" aria-hidden="true" focusable="false" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12h14m0 0l-6-6m6 6l-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card glass-card" data-tech="design">
+        <div class="project-image-wrap">
+          <img
+            src="assets/designs/movie-poster-preview.jpg"
+            alt="Weird Path movie poster concept art preview"
+            class="project-image"
+            style="object-position: center;"
+            width="800"
+            height="500"
+            loading="lazy"
+          >
+          <div class="project-image-overlay" aria-hidden="true"></div>
+        </div>
+        <div class="project-content">
+          <div class="project-meta">
+            <span class="project-category">Concept Art &amp; Poster</span>
+          </div>
+          <h3 class="project-title">Weird Path — Movie Poster</h3>
+          <p class="project-desc">
+            A cinematic concept film poster created with moody atmospheric depth, intricate lighting composition, and evocative title typography for storytelling.
+          </p>
+          <ul class="project-tech" aria-label="Technologies used">
+            <li>Graphic Design</li>
+            <li>Movie Poster</li>
+            <li>Visual Art</li>
+          </ul>
+          <div class="project-actions">
+            <a href="assets/designs/Movie%20Poster%20(Weird%20Path).jpg" download="Movie Poster (Weird Path).jpg" class="btn btn-outline btn-project" aria-label="Download Weird Path Movie Poster">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              <span>Download</span>
+            </a>
+            <a href="assets/designs/Movie%20Poster%20(Weird%20Path).jpg" target="_blank" rel="noopener" class="btn btn-primary btn-project" aria-label="View Weird Path Movie Poster in high resolution">
+              <span>View Poster</span>
+              <svg viewBox="0 0 24 24" class="icon-arrow" aria-hidden="true" focusable="false" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12h14m0 0l-6-6m6 6l-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card glass-card" data-tech="design">
+        <div class="project-image-wrap">
+          <img
+            src="assets/designs/3-fold-leaflet-preview.jpg"
+            alt="Nike 3-fold leaflet brochure print design preview"
+            class="project-image"
+            style="object-position: center;"
+            width="800"
+            height="500"
+            loading="lazy"
+          >
+          <div class="project-image-overlay" aria-hidden="true"></div>
+        </div>
+        <div class="project-content">
+          <div class="project-meta">
+            <span class="project-category">Print &amp; Editorial</span>
+          </div>
+          <h3 class="project-title">Nike 3-Fold Leaflet Design</h3>
+          <p class="project-desc">
+            A clean corporate 3-fold brochure design for Nike outlining company history, brand values, and popular athletic shoe collections formatted for print production.
+          </p>
+          <ul class="project-tech" aria-label="Technologies used">
+            <li>Print Design</li>
+            <li>Editorial</li>
+            <li>Brand Layout</li>
+          </ul>
+          <div class="project-actions">
+            <a href="assets/designs/3-fold%20leaflet%20design.pdf" download="3-fold leaflet design.pdf" class="btn btn-outline btn-project" aria-label="Download Nike 3-Fold Leaflet design PDF">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              <span>Download PDF</span>
+            </a>
+            <a href="assets/designs/3-fold%20leaflet%20design.pdf" target="_blank" rel="noopener" class="btn btn-primary btn-project" aria-label="View Nike 3-Fold Leaflet design PDF">
+              <span>View Brochure</span>
+              <svg viewBox="0 0 24 24" class="icon-arrow" aria-hidden="true" focusable="false" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12h14m0 0l-6-6m6 6l-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </div>
+      </article>
+
     </div>
 
     <p class="projects-empty reveal" id="projectsEmpty" hidden>No projects found for this technology.</p>
@@ -668,7 +899,6 @@
   <div class="container">
 
     <header class="section-header reveal">
-      <p class="section-eyebrow"><span class="eyebrow-dot"></span>// MY JOURNEY</p>
       <h2 class="section-title">Experience &amp; Education</h2>
       <p class="section-subtitle">
         A snapshot of how I grow as a developer — from academic work and personal builds to real client projects.
@@ -817,7 +1047,6 @@
   <div class="container">
 
     <header class="section-header reveal">
-      <p class="section-eyebrow"><span class="eyebrow-dot"></span>// GET IN TOUCH</p>
       <h2 class="section-title">Contact Me</h2>
       <p class="section-subtitle">
         Have a project in mind, a question, or just want to say hello? Send a message — I&apos;d love to hear from you.
