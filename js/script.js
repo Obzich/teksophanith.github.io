@@ -303,11 +303,7 @@ if(filterBtns.length && projectCards.length){
 
       if(projectsEmpty){
         projectsEmpty.hidden = visibleCount > 0;
-        if(filter === 'figma'){
-          projectsEmpty.textContent = 'Figma projects coming soon! Check back later.';
-        } else {
-          projectsEmpty.textContent = 'No projects found for this technology.';
-        }
+        projectsEmpty.textContent = 'No projects found for this category.';
       }
     });
   });
